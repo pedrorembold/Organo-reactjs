@@ -19,6 +19,10 @@ const [time, setTime] = useState('');
             imagem,
             time
         });
+        setNome('')
+        setCargo('')
+        setImagem('')
+        setTime('')
     }
 
     return(
